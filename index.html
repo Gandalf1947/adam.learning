@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kto JS-a się nie uczy ten w ZDZ-tach tańczy</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        
+        <div id="kontener">
+
+            <header>
+
+                <h1 onclick="ester_egg()" id="h1">Naucz się JAVA SCRIPT</h1>
+
+            </header>
+
+            <main>
+
+                <menu>
+
+                    <button id="fs_button" class="wcisniety" onclick="for_start()"><b>Na początek</b></button>
+
+                    <button id="ll_button" onclick="lesson_loops()">Pętle w JS</button>
+
+                </menu>
+
+                <article id="artykul">
+
+                    <h2>NA POCZĄTEK</h2>
+
+                    <p>
+                        Na początek najlepiej obejrzeć filmy z kanału <a href="https://www.youtube.com/@Pasjainformatyki">Pasja informatyki</a>.<br>
+                        Dużo wyjaśnia bo ta strona została tylko stworzona w celach pracy na lekcji i raczej nie będzie kontunowana.
+                    </p>
+
+                </article>
+
+            </main>
+
+            <footer>
+
+                <p id="owner"></p>
+
+            </footer>
+
+        </div>
+
+        <script>
+
+            let date = new Date();
+            let year = date.getFullYear();
+            document.getElementById("owner").innerHTML = "adamszulc©"+year;
+
+        </script>
+        <script src="main.js"></script>
+
+    </body>
+
+</html>
