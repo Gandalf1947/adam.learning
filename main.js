@@ -96,5 +96,4 @@ function lesson_loops(){
     artykul.innerHTML = artykul2;
     fs_button.className = ""
     ll_button.className = "wcisniety";
-
 }
