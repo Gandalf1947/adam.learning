@@ -4,7 +4,8 @@ let artykul1 = `
 
     <p>
         Na początek najlepiej obejrzeć filmy z kanału <a href="https://www.youtube.com/@Pasjainformatyki">Pasja informatyki</a>.<br>
-        Dużo wyjaśnia bo ta strona została tylko stworzona w celach pracy na lekcji i raczej nie będzie kontunowana.
+        Dużo na tym kanale wyjaśniają na temat.<br>
+        Strona ta strona została tylko stworzona w celach pracy na lekcji i raczej nie będzie kontunowana.
     </p>
 `;
 
@@ -95,4 +96,5 @@ function lesson_loops(){
     artykul.innerHTML = artykul2;
     fs_button.className = ""
     ll_button.className = "wcisniety";
+
 }
