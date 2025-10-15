@@ -5,7 +5,7 @@ let artykul1 = `
     <p>
         Na początek najlepiej obejrzeć filmy z kanału <a href="https://www.youtube.com/@Pasjainformatyki">Pasja informatyki</a>.<br>
         Dużo na tym kanale wyjaśniają na temat.<br>
-        Strona ta strona została tylko stworzona w celach pracy na lekcji i raczej nie będzie kontunowana.
+        Strona ta została tylko stworzona w celach pracy na lekcji i raczej nie będzie kontunowana.
     </p>
 `;
 
@@ -67,7 +67,7 @@ let artykul2 = `
         </code>
     </pre>
     </div><br>
-    <p><a href="" download>Czas trochę poćwiczyć ;)</a></p>
+    <p><a href="zadania.txt" download>Czas trochę poćwiczyć ;)</a></p>
 `;
 
 const artykul = document.getElementById("artykul");
@@ -96,4 +96,5 @@ function lesson_loops(){
     artykul.innerHTML = artykul2;
     fs_button.className = ""
     ll_button.className = "wcisniety";
+
 }
