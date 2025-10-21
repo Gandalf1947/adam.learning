@@ -3,7 +3,7 @@ let artykul1 = `
     <h2>NA POCZĄTEK</h2>
 
     <p>
-        Na początek najlepiej obejrzeć filmy z kanału <a href="https://www.youtube.com/@Pasjainformatyki">Pasja informatyki</a>.<br>
+        Na początek najlepiej obejrzeć filmy z kanału <a href="https://www.youtube.com/@Pasjainformatyki" target="_blank">Pasja informatyki</a>.<br>
         Dużo na tym kanale wyjaśniają na temat.<br>
         Strona ta została tylko stworzona w celach pracy na lekcji i raczej nie będzie kontunowana.
     </p>
@@ -169,4 +169,5 @@ function lesson_loops_zadania(){
     fs_button.className = ""
     ll_button.className = ""
     ll_z_button.className = "wcisniety";
+
 }
